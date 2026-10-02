@@ -1,0 +1,3 @@
+import ContactForm from './form';
+export const metadata={title:'Contact'};
+export default function Contact(){return <><section className="page-head wrap"><span className="eyebrow">Contact the studio</span><h1>Big idea?<br/><em>We’re listening.</em></h1></section><section className="contact-grid wrap"><div className="contact-info"><h2>Start a conversation.</h2><p>Tell us what you have in mind, where you want to go, and what you need help with.</p><a className="text-link" href="mailto:alexchoi20219@gmail.com">alexchoi20219@gmail.com</a><p>Prefer a quick introduction? Join our <a className="text-link" href="/community">community messageboard</a>.</p></div><ContactForm/></section></>}
